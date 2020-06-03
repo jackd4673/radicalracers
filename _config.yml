@@ -1,0 +1,23 @@
+title: Radical Racers
+email: 
+description: >- # this means to ignore newlines until "baseurl:"
+  Purchase a Radical Racer today + FREE Shipping! Each Radical Racer ordered includes a wireless remote control & USB charging cable. Available in Red or Blue. Must be 18 years or older to order.
+contacttxt: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://goradicalracers.ca/" # the base hostname & protocol for your site, e.g. http://example.com
+api_key: ZGIzMTlhNzItMTg1My00MTM5LWI4ZDQtOTM4NDQ5OWEwOWNmNjM3MjMzNTQ0ODY2OTg0ODI3
+collections:
+  products:
+    output: true
+ 
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+#  - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

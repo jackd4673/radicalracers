@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<h2>Radical Racers | The Wall Climbing RC Racer</h2>
+<div class="center">
+<a href="http://arkgroup7.socialpaid.hop.clickbank.net" target="_blank"><img src="https://s3.amazonaws.com/Clicktrix/affiliates/promotion_tools/banners/paidsocialmediajobs/animated/468x60_a.gif" /></a>
+</div>
+<div class="product_grid row">
+{%- for item in site.products -%}
+<div class="product col-12 col-sm-12 col-md-6 col-lg-4">
+  <div class="card">
+  <h3>{{item.name}}</h3>
+  <a href="{{item.url | relative_url}}"><img src="{{item.image | relative_url}}" alt="{{item.title}}"></a>
+  <p>{{item.description}}</p>
+  <a href="{{item.url | relative_url}}">see more...</a>
+  <p><!--<b>Price: </b>{{item.price}}-->  <b> FREE Shipping within Canada.</b></p>
+  <div class="call">
+    {% include product-def-part.html 
+      identifier  = item.identifier
+      name        = item.name 
+      price       = item.price
+      image       = item.image
+      description = item.description
+      url         = item.url
+      %}
+  </div>
+  </div>
+  </div>
+{%- endfor -%}
+<!-- // VIDEO -->
+		<div class="shadow-floor">
+          <div id="video" class="video center-margin" style="--aspect-ratio:190/340">
+			<iframe src="https://player.vimeo.com/video/350827022?autoplay=0&title=0&byline=0&portrait=0&playsinline=1" width="340" height="190" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<!-- // FEATURES -->
+		<img src="{{item.image | relative_url}}\assets\images\features.png" alt="{{item.title}}">
+      </div>
+
+</div>
