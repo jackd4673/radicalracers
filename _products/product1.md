@@ -5,7 +5,7 @@ name: Red RC Racer
 price: 53.27
 image: /assets/images/product_01/01.jpg
 description: "The Wall Climbing, Gravity Defying RC Racers!"
-weight: 20
+weight: 120
 tags: radical racer
 file_guid: 19107-3d18-4c2e-9cee-4f447e9f054a
 ---

@@ -5,7 +5,7 @@ name: Blue RC Racer
 price: 53.27
 image: /assets/images/product_02/01.jpg
 description: "The Wall Climbing, Gravity Defying RC Racers!"
-weight: 20
+weight: 120
 # file_guid: 19107-0851-4418-93e8-785975df7318
 tags: radical racer
 file_guid: 19107-0851-4418-93e8-785975df7318
